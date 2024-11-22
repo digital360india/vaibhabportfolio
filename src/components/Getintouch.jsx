@@ -7,7 +7,7 @@ const Getintouch = () => {
             GET IN TOUCH
           </h1>
           <h1
-            className="text-[60px] leading-tight text-[#FFFFFF] mt-5"
+            className="text-[60px] leading-tight font-bold text-[#FFFFFF] mt-5"
             style={{ fontFamily: "Times New Roman, serif" }}
           >
             Don&apos;t hesitate to
@@ -40,7 +40,7 @@ const Getintouch = () => {
             <div>
               <input
                 type="text"
-                placeholder="your message here "
+                placeholder="Your message here "
                 className="  border-b-[1px] border-l-[1px] bg-black  pt-[10px] pb-[10px] pl-[20px] pr-[20px] gap-[10px] lg:w-[549px]  md:w-[ 470px] h-[80px]  md:h-[100px] text-white"
               />
             </div>

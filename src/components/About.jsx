@@ -11,12 +11,12 @@ const About = () => {
       </div>
 
       <div className="">
-        <div className="text-[20px] font-semibold text-[#00B1B2] mt-2  text-left font-poppins ">
+        <div className="text-[20px] font-medium text-[#00B1B2] mt-2  text-left font-poppins ">
           ABOUT ME
         </div>
 
         <div
-          className=" text-[40px] font-extrabold leading-[46px]  text-white text-left mt-6  "
+          className=" text-[40px] font-bold leading-[46px]  text-white text-left mt-6  "
           style={{ fontFamily: "Times New Roman, serif" }}
         >
           I turn My Experience into

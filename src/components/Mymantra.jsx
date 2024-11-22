@@ -13,13 +13,13 @@ const Mymantra = () => {
                 className=" text-[32px] font-bold"
                 style={{ fontFamily: "Times New Roman, serif" }}
               >
-                Great content doesnt just inform; it drives change and builds
+                Great content doesn&apos;t just inform; it drives change and builds
                 trust
               </div>
             </div>
           </div>
           <div className="flex lg:mt-6  md:mt-16 justify-center text-white items-center  lg:px-0 md:px-6 w-[317px] md:h-[190px] lg:h-[200px] text-[50px] bg-[#202020]">
-            <div className="" style={{ fontFamily: "Times New Roman, serif" }}>
+            <div className=" text-[#FFFFFF]" style={{ fontFamily: "Times New Roman, serif" }}>
               MY <br />
               MANTRA
             </div>
@@ -33,7 +33,7 @@ const Mymantra = () => {
         </div>
 
         <div className=" text-white  flex justify-center items-center   text-[50px]  bg-[#202020]">
-          <div className="p-2" style={{ fontFamily: "Times New Roman, serif" }}>
+          <div className="p-2 text-[#FFFFFF]" style={{ fontFamily: "Times New Roman, serif" }}>
             MY <br /> MANTRA
           </div>
         </div>
@@ -41,7 +41,7 @@ const Mymantra = () => {
           className=" text-[30px] font-bold p-8 bg-[#EEEEEE]"
           style={{ fontFamily: "Times New Roman, serif" }}
         >
-          Great content doesnt just inform; it drives change and builds trust
+          Great content doesn&apos;t just inform; it drives change and builds trust
         </div>
       </div>
     </>

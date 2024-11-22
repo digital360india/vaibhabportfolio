@@ -2,7 +2,7 @@ const Skills = () => {
   return (
     <div>
       <div className=" flex justify-end     md:mr-20">
-        <div className="md:flex md:space-x-28">
+        <div className="md:flex md:space-x-28 lg:mt-20">
           <div className=" md:w-[400px]  mt-8 md:mt-20 md:px-0 px-14 md:ml-12 lg:ml-0  md:space-y-4 md:py-3">
             <p className="  text-[20px]  font-medium text-[#00B1B2] font-poppins">
               HOW I ACHIEVE MY GOALS
@@ -38,11 +38,13 @@ const Skills = () => {
 
         <div className="">
           <div
-            className="md:text-[32px] text-[24px] font-bold md:px-0 px-12 md:ml-8"
+            className="text-[30px] font-bold md:px-0 px-12 md:ml-8"
             style={{ fontFamily: "Times New Roman, serif" }}
           >
+            <p className="leading-tight">  
             Content Creation & <br />
             Strategy
+            </p>
           </div>
 
           <div className="text-[20px]  md:ml-16 font-poppins mt-3 md:px-0 px-20 md:mt-7 md:text-left  ">
@@ -74,11 +76,13 @@ const Skills = () => {
         </div>
         <div>
           <div
-            className="md:text-[32px] text-[24px] pr-10 md:pr-0  font-bold md:mt-0 mt-5  text-right md:text-start  "
+            className="text-[28px]  pr-10 md:pr-0  font-bold md:mt-0 mt-5  text-right md:text-start  "
             style={{ fontFamily: "Times New Roman, serif" }}
           >
+            <p className="leading-tight">  
             Educational Design & <br className="   " />
             Development
+            </p>
           </div>
           <div>
             <div className="text-[20px]   md:ml-0 ml-10  font-poppins md:pt-0 pt-5">
@@ -108,10 +112,12 @@ const Skills = () => {
         </div>
         <div>
           <div
-            className="md:text-[32px] text-[24px] md:pt-0 pt-5   md:mt-10 lg:mt-0 font-bold  ml-7 "
+            className="text-[30px] md:pt-0 pt-5   md:mt-10 lg:mt-0 font-bold  ml-7 "
             style={{ fontFamily: "Times New Roman, serif" }}
           >
+            <p className="leading-tight">  
             Audience Engagement <br className="" />& Performance
+          </p>
           </div>
           <div>
             <div className="text-[20px] ml-14   mt-3 md:mt-7 font-poppins">
