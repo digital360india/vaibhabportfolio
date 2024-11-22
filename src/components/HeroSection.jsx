@@ -2,7 +2,7 @@ const HeroSection = () => {
   return (
     <>
       <div
-        className=" md:flex justify-center  md:p-24 md:w-full md:px-0 px-10  h-[1000px] md:h-[540px] py-20  "
+        className=" md:flex justify-center md:p-24 md:w-full md:px-0 px-10  h-[1000px] md:h-[560px] lg:h-[630px] py-20  "
         style={{
           backgroundImage: 'url("Frame.svg")',
           backgroundSize: "cover",
@@ -14,7 +14,7 @@ const HeroSection = () => {
           <img src="vaibhab.svg" alt="Profile" className="w-90 h-90  " />
         </div>
 
-        <div className="md:pr-4 lg:pr-0">
+        <div className="md:pr-4 lg:pr-0 ">
           <div
             className="text-[70px] leading-tight font-bold text-white  md:text-right   mt-1"
             style={{ fontFamily: "Times New Roman, serif" }}
@@ -32,7 +32,7 @@ const HeroSection = () => {
             </div>
           </div>
           <div className=" ">
-            <p className="font-poppins text-[16px] text-white font-light  mt-5 md:ml-20 md:text-right md:w-[500px]  ">
+            <p className="font-poppins text-[16px] text-white font-light   mt-5 md:ml-20 md:text-right md:w-[500px]  ">
               An author and educational content specialist dedicated to shaping
               the future of learning. With a passion for creating insightful and
               impactful educational content, I specialize in making complex
