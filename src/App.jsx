@@ -1,19 +1,19 @@
-import About from "./components/About";
-import Getintouch from "./components/Getintouch";
-import HeroSection from "./components/HeroSection";
-import Mymantra from "./components/Mymantra";
+ import About from "./components/About";
+ import Getintouch from "./components/Getintouch";
+ import HeroSection from "./components/HeroSection";
+ import Mymantra from "./components/Mymantra";
+ import Work from "./components/Work";
 import Skills from "./components/Skills";
-import Work from "./components/Work";
 
 function App() {
   return (
     <>
-      <HeroSection />
-      <About />
+       <HeroSection />
+      <About /> 
       <Skills/>
-      <Work />
+        <Work />
       <Mymantra/>
-      <Getintouch/>
+      <Getintouch/>  
     </>
   );
 }

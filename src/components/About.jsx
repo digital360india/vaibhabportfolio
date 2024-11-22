@@ -1,15 +1,17 @@
 const About = () => {
   return (
     <div
-      className="flex justify-center gap-80 items-start p-16 bg-[#202020] ;
+      className=" md:flex justify-between md:p-20 p-12 gap-40   bg-[#202020] ;
 "
     >
-      <div className="text-[227.14px] text-[#7A7A7A] font-medium  text-right ml-16 font-poppins">
-        01
+     
+
+      <div className="  w-[50%] h-[341px]   hidden md:block">
+        <img src="/01.svg" alt="img"  className="w-[225px] h-[341px]"/>
       </div>
 
       <div className="">
-        <div className="text-[20px] font-semibold text-sky-600 mt-2  text-left font-poppins ">
+        <div className="text-[20px] font-semibold text-[#00B1B2] mt-2  text-left font-poppins ">
           ABOUT ME
         </div>
 
@@ -30,7 +32,7 @@ const About = () => {
           <hr className="border-t-2 border-gray-300 my-10 w-32" />
         </div>
 
-        <div className="text-[16px]  font-poppins  text-white mt-2  max-w-4xl ">
+        <div className="text-[16px]  font-poppins  text-white mt-2  ">
           With extensive experience across various platforms, I specialize in
           curriculum development, web and social media content, and content
           strategy for educational websites. From crafting SEO-optimized
