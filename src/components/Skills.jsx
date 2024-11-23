@@ -59,24 +59,24 @@ const Skills = () => {
         </div>
       </div>
 
-      <div className="md:flex md:justify-end md:mr-32 md:ml-0 ml-20 md:gap-9 md:mt-10 lg:mt-0 ">
-        <div className="hidden md:block">
+      <div className="md:flex md:justify-end md:mr-[170px] md:ml-0 ml-10 md:gap-9 md:mt-10 mt-5 lg:mt-0 ">
+        <div className=" md:block">
           <img
             src="/skill2.svg"
             alt="logo"
             className="w-[50px] h-[50px]  md:w-auto md:h-auto"
           />
         </div>
-        <div className="flex justify-end pr-10  md:hidden ">
+        {/* <div className="flex justify-end pr-10  md:hidden ">
           <img
             src="/skill2.svg"
             alt="logo"
             className="w-[50px] h-[50px]  md:w-auto md:h-auto mt-10 md:mt-0"
           />
-        </div>
+        </div> */}
         <div>
           <div
-            className="text-[28px]  pr-10 md:pr-0  font-bold md:mt-0 mt-5  text-right md:text-start  "
+            className="text-[28px]       font-bold md:mt-0 mt-5  text-left  md:text-start  "
             style={{ fontFamily: "Times New Roman, serif" }}
           >
             <p className="leading-tight">  
@@ -85,7 +85,7 @@ const Skills = () => {
             </p>
           </div>
           <div>
-            <div className="text-[20px]   md:ml-0 ml-10  font-poppins md:pt-0 pt-5">
+            <div className="text-[20px] px-10 md:px-0   font-poppins md:pt-0 pt-5">
               <ul>
                 <li className="list-disc">Instructional Design</li>
 
@@ -102,17 +102,17 @@ const Skills = () => {
         </div>
       </div>
 
-      <div className="md:flex md:px-32 px-7 mb-10 md:mb-0 md:mt-8 lg:mt-0">
+      <div className="md:flex md:px-28 lg:px-32 px-7 mb-10 md:mb-0 md:mt-8 lg:mt-0">
         <div>
           <img
             src="Frame 15.svg"
             alt="logo"
-            className="w-[50px] h-[50px]  md:ml-0 ml-6 md:w-auto md:h-auto md:mt-0 mt-10"
+            className="w-[50px] h-[50px]  md:ml-3 ml-3 md:w-auto md:h-auto md:mt-10 lg:mt-0 mt-10"
           />
         </div>
         <div>
           <div
-            className="text-[30px] md:pt-0 pt-5   md:mt-10 lg:mt-0 font-bold  ml-7 "
+            className="text-[30px] md:pt-0 pt-5   md:mt-10 lg:mt-0 font-bold  ml-2 md:ml-10 lg:ml-7 "
             style={{ fontFamily: "Times New Roman, serif" }}
           >
             <p className="leading-tight">  
