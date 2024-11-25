@@ -11,7 +11,7 @@ const HeroSection = () => {
         }}
       >
         <div className=" hidden md:block">
-          <img src="vaibhab.svg" alt="Profile" className="w-90 h-90  " />
+          <img src="vaibhav.jpg" alt="Profile" className="w-[440px] h-[440px] object-cover  " />
         </div>
 
         <div className="md:pr-4 lg:pr-0 ">
@@ -25,7 +25,7 @@ const HeroSection = () => {
           </div>
 
           <div className="text-[24px] font-semibold text-[#62D2D3]  font-poppins md:text-right  mt-3">
-            <span className="  mb-">AUTHOR</span>
+            <span className=" ">AUTHOR</span>
             <div>&</div>
             <div>
               <span className=" "> EDUCATIONAL CONTENT SPECIALIST</span>
@@ -41,7 +41,7 @@ const HeroSection = () => {
             </p>
 
             <div className=" md:hidden md:mt-0 mt-5">
-              <img src="vaibhab.svg" alt="Profile" className="w-[60vw]" />
+              <img src="vaibhav.jpg" alt="Profile" className="w-[295px] h-[300px] object-cover " />
             </div>
           </div>
         </div>
